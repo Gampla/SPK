@@ -10,7 +10,7 @@
           <div class="section-header">
 		<div class="container-fluid">
 			<button class="btn btn-sm-6 btn-primary" data-toggle="modal"
-			data-target="#tambah_kerajinan">Tambah Data</button>
+			data-target="#spk">Tambah Data</button>
 		</div>
 		</div>
 		<div class="section-header">
@@ -24,19 +24,15 @@
 				<th>SCORE D</th>
 			</tr>
 		</section></section>
-			<?php
-			$no=1;
-			foreach () : ?>
-			
+
 			<tr>
-				<td><?php echo $no++;?></td>	
+				<td></td>	
 				<td></td>	
 				<td></td>	
 				<td></td>	
 				<td></td>	
 			</tr>
-			
-			<?php endforeach;?>
+		
 			
 		</table>
 		</div>

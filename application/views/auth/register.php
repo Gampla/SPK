@@ -4,7 +4,7 @@
         <div class="row">
           <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
             <div class="login-brand">
-              <img src="<?php echo base_url('assets/');?>img/logoside.png" alt="logo" width="300" class="shadow-light rounded-circle">
+              <img alt="logo" width="300" class="shadow-light rounded-circle">
             </div>
 
             <div class="card card-primary">
@@ -57,9 +57,6 @@
 			  <a href="<?php echo base_url('auth');?>">Already have an account? Login</a>
             </div>
 			</div>
-            <div class="simple-footer">
-              Copyright &copy; Karya Tembaga 2023
-            </div>
           </div>
         </div>
       </div>
