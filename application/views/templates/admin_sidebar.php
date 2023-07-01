@@ -6,6 +6,7 @@
           <li clas="nav-item">
 			   <a class="nav-link" href="<?php echo base_url('admin/data_kerajinan');?>">
 				 <i class="fas fa-box"></i>
-					<span>Sistem Penunjang Keputusan</span></a>
+					<span >Sistem Penunjang Keputusan</span>
+        </a>
 			   </li>
       </div>

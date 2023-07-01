@@ -5,7 +5,7 @@ class Admin extends CI_Controller
 	
 	public function index()
 	{
-		$data['kerajinan']= $this->model_kerajinan->tampil_data()->result();
+		$data['kerajinan']= 'to be implemented';
 		$this->load->view('templates/admin_header');
 		$this->load->view('templates/admin_navbar');
 		$this->load->view('templates/admin_sidebar');
@@ -16,7 +16,7 @@ class Admin extends CI_Controller
 	
 	public function spk()
 	{	
-		$data['kerajinan']= $this->model_kerajinan->tampil_data()->result();
+		$data['kerajinan']= 'to be implemented';
 		$this->load->view('templates/admin_header');
 		$this->load->view('templates/admin_navbar');
 		$this->load->view('templates/admin_sidebar');

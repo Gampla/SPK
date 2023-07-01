@@ -1,4 +1,5 @@
 <?php
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Auth extends CI_Controller 
@@ -6,7 +7,7 @@ class Auth extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->library('form_validation');
+		$this->load->library('form_validation','session');
 	}
 	
 	public function index()
@@ -79,7 +80,7 @@ class Auth extends CI_Controller
 		
 		if($this->form_validation->run() == false)
 		{
-			$data['title'] = 'Tiketku - User Registration';
+			$data['title'] = 'SPK - User Registration';
 			$this->load->view('templates/auth_header', $data);
 			$this->load->view('auth/register');
 			$this->load->view('templates/auth_footer');
